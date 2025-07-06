@@ -1,0 +1,30 @@
+-- Found ament_cmake: 2.8.4 (/home/matthew_a/workspace/install/ament_cmake/share/ament_cmake/cmake)
+-- Found rclcpp: 30.0.0 (/home/matthew_a/workspace/install/rclcpp/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 5.0.0 (/home/matthew_a/workspace/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 5.0.0 (/home/matthew_a/workspace/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 7.9.0 (/home/matthew_a/workspace/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_iceoryx2_cxx: 0.1.0 (/home/matthew_a/workspace/install/rmw_iceoryx2_cxx/share/rmw_iceoryx2_cxx/cmake)
+-- Using RMW implementation 'rmw_iceoryx2_cxx' as default
+-- Found std_msgs: 5.8.1 (/home/matthew_a/workspace/install/std_msgs/share/std_msgs/cmake)
+-- Found geometry_msgs: 5.8.1 (/home/matthew_a/workspace/install/geometry_msgs/share/geometry_msgs/cmake)
+[31mCMake Error at CMakeLists.txt:22 (find_package):
+  By not providing "Findpcl_conversions.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "pcl_conversions", but CMake did not find one.
+
+  Could not find a package configuration file provided by "pcl_conversions"
+  with any of the following names:
+
+    pcl_conversionsConfig.cmake
+    pcl_conversions-config.cmake
+
+  Add the installation prefix of "pcl_conversions" to CMAKE_PREFIX_PATH or
+  set "pcl_conversions_DIR" to a directory containing one of the above files.
+  If "pcl_conversions" provides a separate development package or SDK, be
+  sure it has been installed.
+
+[0m
+-- Configuring incomplete, errors occurred!
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

@@ -1,0 +1,24 @@
+-- Found ament_cmake: 2.8.4 (/home/matthew_a/workspace/install/ament_cmake/share/ament_cmake/cmake)
+-- Found rclcpp: 30.0.0 (/home/matthew_a/workspace/install/rclcpp/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 5.0.0 (/home/matthew_a/workspace/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 5.0.0 (/home/matthew_a/workspace/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.9.0 (/home/matthew_a/workspace/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_iceoryx2_cxx: 0.1.0 (/home/matthew_a/workspace/install/rmw_iceoryx2_cxx/share/rmw_iceoryx2_cxx/cmake)
+-- Using RMW implementation 'rmw_iceoryx2_cxx' as default
+-- Found std_msgs: 5.8.1 (/home/matthew_a/workspace/install/std_msgs/share/std_msgs/cmake)
+-- Found geometry_msgs: 5.8.1 (/home/matthew_a/workspace/install/geometry_msgs/share/geometry_msgs/cmake)
+-- Found pcl_conversions: 2.7.3 (/opt/ros/rolling/share/pcl_conversions/cmake)
+-- Found flann version 1.9.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found tf2_ros: 0.42.2 (/opt/ros/rolling/share/tf2_ros/cmake)
+-- Configuring done (9.7s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2
+[ 50%] [32mBuilding CXX object CMakeFiles/unitree_lidar_ros2_node.dir/src/unitree_lidar_ros2_node.cpp.o[0m

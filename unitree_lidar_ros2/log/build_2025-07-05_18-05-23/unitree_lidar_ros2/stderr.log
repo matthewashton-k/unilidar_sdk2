@@ -1,0 +1,61 @@
+[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  CMake variable FLANN_ROOT is set to:
+
+    /usr
+
+  For compatibility, find_package is ignoring the variable, but code in a
+  .cmake module might still use it.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+  /opt/ros/rolling/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/rolling/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+  CMakeLists.txt:22 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at CMakeLists.txt:23 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0mCMake Deprecation Warning at /home/matthew_a/workspace/install/ament_cmake_target_dependencies/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(unitree_lidar_ros2_node PUBLIC
+      ${geometry_msgs_TARGETS}
+      ${sensor_msgs_TARGETS}
+      ${std_msgs_TARGETS}
+      pcl_conversions::pcl_conversions
+      rclcpp::rclcpp
+      sensor_msgs::sensor_msgs_library
+      tf2_ros::static_transform_broadcaster_node
+      tf2_ros::tf2_ros
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:48 (ament_target_dependencies)
+
+[0m
+gmake[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libpcap.so', needed by 'unitree_lidar_ros2_node'.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/src/unitree_lidar_ros2/src/unitree_lidar_ros2_node.cpp:5[m[K:
+[01m[K/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/src/unitree_lidar_ros2/include/unitree_lidar_ros2.h:29:10:[m[K [01;31m[Kfatal error: [m[Ktf2/LinearMath/Quaternion.h: No such file or directory
+   29 | #include [01;31m[K"tf2/LinearMath/Quaternion.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/unitree_lidar_ros2_node.dir/build.make:76: CMakeFiles/unitree_lidar_ros2_node.dir/src/unitree_lidar_ros2_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/unitree_lidar_ros2_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

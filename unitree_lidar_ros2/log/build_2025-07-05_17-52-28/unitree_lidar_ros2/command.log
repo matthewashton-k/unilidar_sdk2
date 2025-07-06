@@ -1,0 +1,2 @@
+Invoking command in '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2 -- -j16 -l16
+Invoked command in '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2 -- -j16 -l16

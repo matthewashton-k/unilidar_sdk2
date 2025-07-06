@@ -1,0 +1,72 @@
+[0.035s] Invoking command in '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling:/home/matthew_a/workspace/install/sros2:/home/matthew_a/workspace/install/ros2topic:/home/matthew_a/workspace/install/ros2test:/home/matthew_a/workspace/install/ros2component:/home/matthew_a/workspace/install/ros2param:/home/matthew_a/workspace/install/ros2lifecycle:/home/matthew_a/workspace/install/ros2service:/home/matthew_a/workspace/install/ros2run:/home/matthew_a/workspace/install/ros2launch:/home/matthew_a/workspace/install/ros2pkg:/home/matthew_a/workspace/install/ros2node:/home/matthew_a/workspace/install/ros2multicast:/home/matthew_a/workspace/install/ros2interface:/home/matthew_a/workspace/install/ros2doctor:/home/matthew_a/workspace/install/ros2action:/home/matthew_a/workspace/install/ros2cli:/home/matthew_a/workspace/install/launch_testing_ros:/home/matthew_a/workspace/install/launch_ros:/home/matthew_a/workspace/install/ament_uncrustify:/home/matthew_a/workspace/install/rpyutils:/home/matthew_a/workspace/install/rosidl_runtime_py:/home/matthew_a/workspace/install/rosidl_pycommon:/home/matthew_a/workspace/install/rosidl_cli:/home/matthew_a/workspace/install/launch_testing:/home/matthew_a/workspace/install/launch_yaml:/home/matthew_a/workspace/install/launch_xml:/home/matthew_a/workspace/install/launch:/home/matthew_a/workspace/install/osrf_pycommon:/home/matthew_a/workspace/install/domain_coordinator:/home/matthew_a/workspace/install/ament_xmllint:/home/matthew_a/workspace/install/ament_pycodestyle:/home/matthew_a/workspace/install/ament_pep257:/home/matthew_a/workspace/install/ament_package:/home/matthew_a/workspace/install/ament_mypy:/home/matthew_a/workspace/install/ament_lint_cmake:/home/matthew_a/workspace/install/ament_flake8:/home/matthew_a/workspace/install/ament_copyright:/home/matthew_a/workspace/install/ament_lint:/home/matthew_a/workspace/install/ament_index_python:/home/matthew_a/workspace/install/ament_cpplint:/home/matthew_a/workspace/install/ament_cppcheck DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2 -- -j16 -l16
+[0.137s] -- Found ament_cmake: 2.8.4 (/home/matthew_a/workspace/install/ament_cmake/share/ament_cmake/cmake)
+[1.008s] -- Found rclcpp: 30.0.0 (/home/matthew_a/workspace/install/rclcpp/share/rclcpp/cmake)
+[1.082s] -- Found rosidl_generator_c: 5.0.0 (/home/matthew_a/workspace/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+[1.093s] -- Found rosidl_generator_cpp: 5.0.0 (/home/matthew_a/workspace/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+[1.132s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.176s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.344s] -- Found rmw_implementation_cmake: 7.9.0 (/home/matthew_a/workspace/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+[1.369s] -- Found rmw_iceoryx2_cxx: 0.1.0 (/home/matthew_a/workspace/install/rmw_iceoryx2_cxx/share/rmw_iceoryx2_cxx/cmake)
+[1.393s] -- Using RMW implementation 'rmw_iceoryx2_cxx' as default
+[1.574s] -- Found std_msgs: 5.8.1 (/home/matthew_a/workspace/install/std_msgs/share/std_msgs/cmake)
+[1.608s] -- Found geometry_msgs: 5.8.1 (/home/matthew_a/workspace/install/geometry_msgs/share/geometry_msgs/cmake)
+[1.678s] -- Found pcl_conversions: 2.7.3 (/opt/ros/rolling/share/pcl_conversions/cmake)
+[2.009s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[2.010s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[2.010s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[2.010s]   cmake_policy command to set the policy and suppress this warning.
+[2.010s] 
+[2.010s]   CMake variable FLANN_ROOT is set to:
+[2.010s] 
+[2.011s]     /usr
+[2.011s] 
+[2.011s]   For compatibility, find_package is ignoring the variable, but code in a
+[2.011s]   .cmake module might still use it.
+[2.011s] Call Stack (most recent call first):
+[2.011s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[2.012s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[2.012s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[2.012s]   /opt/ros/rolling/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.012s]   /opt/ros/rolling/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[2.012s]   CMakeLists.txt:22 (find_package)
+[2.012s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.012s] [0m
+[2.013s] -- Found flann version 1.9.2
+[3.867s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.880s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.738s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.755s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[7.486s] -- Found Qhull version 8.0.2
+[9.218s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[10.391s] [33mCMake Warning (dev) at CMakeLists.txt:23 (find_package):
+[10.391s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[10.391s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[10.391s]   command to set the policy and suppress this warning.
+[10.391s] 
+[10.391s]   CMake variable PCL_ROOT is set to:
+[10.391s] 
+[10.391s]     /usr
+[10.391s] 
+[10.392s]   For compatibility, CMake is ignoring the variable.
+[10.392s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.392s] [0m
+[10.439s] [31mCMake Error at CMakeLists.txt:24 (find_package):
+[10.439s]   By not providing "Findtf2_ros.cmake" in CMAKE_MODULE_PATH this project has
+[10.440s]   asked CMake to find a package configuration file provided by "tf2_ros", but
+[10.440s]   CMake did not find one.
+[10.440s] 
+[10.440s]   Could not find a package configuration file provided by "tf2_ros" with any
+[10.440s]   of the following names:
+[10.440s] 
+[10.440s]     tf2_rosConfig.cmake
+[10.440s]     tf2_ros-config.cmake
+[10.441s] 
+[10.441s]   Add the installation prefix of "tf2_ros" to CMAKE_PREFIX_PATH or set
+[10.441s]   "tf2_ros_DIR" to a directory containing one of the above files.  If
+[10.441s]   "tf2_ros" provides a separate development package or SDK, be sure it has
+[10.441s]   been installed.
+[10.441s] 
+[10.441s] [0m
+[10.441s] -- Configuring incomplete, errors occurred!
+[10.460s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[10.464s] Invoked command in '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling:/home/matthew_a/workspace/install/sros2:/home/matthew_a/workspace/install/ros2topic:/home/matthew_a/workspace/install/ros2test:/home/matthew_a/workspace/install/ros2component:/home/matthew_a/workspace/install/ros2param:/home/matthew_a/workspace/install/ros2lifecycle:/home/matthew_a/workspace/install/ros2service:/home/matthew_a/workspace/install/ros2run:/home/matthew_a/workspace/install/ros2launch:/home/matthew_a/workspace/install/ros2pkg:/home/matthew_a/workspace/install/ros2node:/home/matthew_a/workspace/install/ros2multicast:/home/matthew_a/workspace/install/ros2interface:/home/matthew_a/workspace/install/ros2doctor:/home/matthew_a/workspace/install/ros2action:/home/matthew_a/workspace/install/ros2cli:/home/matthew_a/workspace/install/launch_testing_ros:/home/matthew_a/workspace/install/launch_ros:/home/matthew_a/workspace/install/ament_uncrustify:/home/matthew_a/workspace/install/rpyutils:/home/matthew_a/workspace/install/rosidl_runtime_py:/home/matthew_a/workspace/install/rosidl_pycommon:/home/matthew_a/workspace/install/rosidl_cli:/home/matthew_a/workspace/install/launch_testing:/home/matthew_a/workspace/install/launch_yaml:/home/matthew_a/workspace/install/launch_xml:/home/matthew_a/workspace/install/launch:/home/matthew_a/workspace/install/osrf_pycommon:/home/matthew_a/workspace/install/domain_coordinator:/home/matthew_a/workspace/install/ament_xmllint:/home/matthew_a/workspace/install/ament_pycodestyle:/home/matthew_a/workspace/install/ament_pep257:/home/matthew_a/workspace/install/ament_package:/home/matthew_a/workspace/install/ament_mypy:/home/matthew_a/workspace/install/ament_lint_cmake:/home/matthew_a/workspace/install/ament_flake8:/home/matthew_a/workspace/install/ament_copyright:/home/matthew_a/workspace/install/ament_lint:/home/matthew_a/workspace/install/ament_index_python:/home/matthew_a/workspace/install/ament_cpplint:/home/matthew_a/workspace/install/ament_cppcheck DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2 -- -j16 -l16

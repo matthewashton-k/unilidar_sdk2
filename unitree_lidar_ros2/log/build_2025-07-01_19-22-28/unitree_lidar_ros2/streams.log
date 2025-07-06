@@ -1,0 +1,132 @@
+[0.019s] Invoking command in '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/src/unitree_lidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/install/unitree_lidar_ros2
+[0.175s] -- The C compiler identification is GNU 13.3.0
+[0.300s] -- The CXX compiler identification is GNU 13.3.0
+[0.342s] -- Detecting C compiler ABI info
+[0.537s] -- Detecting C compiler ABI info - done
+[0.558s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.560s] -- Detecting C compile features
+[0.561s] -- Detecting C compile features - done
+[0.583s] -- Detecting CXX compiler ABI info
+[0.772s] -- Detecting CXX compiler ABI info - done
+[0.786s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.787s] -- Detecting CXX compile features
+[0.788s] -- Detecting CXX compile features - done
+[0.796s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.075s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.271s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.351s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.374s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.406s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.439s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.588s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.594s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.756s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.787s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.832s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.967s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.995s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.024s] -- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[2.241s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[2.241s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[2.241s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[2.241s]   cmake_policy command to set the policy and suppress this warning.
+[2.241s] 
+[2.242s]   CMake variable FLANN_ROOT is set to:
+[2.242s] 
+[2.242s]     /usr
+[2.242s] 
+[2.242s]   For compatibility, find_package is ignoring the variable, but code in a
+[2.242s]   .cmake module might still use it.
+[2.242s] Call Stack (most recent call first):
+[2.243s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[2.243s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[2.243s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[2.243s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.243s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[2.243s]   CMakeLists.txt:22 (find_package)
+[2.243s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.244s] [0m
+[2.244s] -- Found flann version 1.9.2
+[2.767s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[2.768s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[5.479s] -- Checking for module 'libusb-1.0'
+[5.507s] --   Found libusb-1.0, version 1.0.27
+[5.597s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[5.601s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.728s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.731s] -- Found Pcap: /usr/lib/x86_64-linux-gnu/libpcap.so  
+[5.752s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[5.791s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[6.728s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.743s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[7.665s] -- Found Qhull version 8.0.2
+[8.581s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.502s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[9.504s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[9.507s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[9.510s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[9.513s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[9.515s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[9.517s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[9.518s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[9.520s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[9.523s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[9.526s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[9.529s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[9.532s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[9.535s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[9.538s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[9.541s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[9.544s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[9.546s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[9.550s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[9.553s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[9.555s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[9.556s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[9.558s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[9.560s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[9.563s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[9.569s] [33mCMake Warning (dev) at CMakeLists.txt:23 (find_package):
+[9.569s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[9.570s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[9.570s]   command to set the policy and suppress this warning.
+[9.570s] 
+[9.570s]   CMake variable PCL_ROOT is set to:
+[9.570s] 
+[9.570s]     /usr
+[9.570s] 
+[9.571s]   For compatibility, CMake is ignoring the variable.
+[9.571s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[9.571s] [0m
+[9.594s] -- Found tf2_ros: 0.36.12 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[10.107s] -- Configuring done (10.1s)
+[10.260s] -- Generating done (0.1s)
+[10.268s] -- Build files have been written to: /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2
+[10.304s] Invoked command in '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/src/unitree_lidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/install/unitree_lidar_ros2
+[10.308s] Invoking command in '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2 -- -j16 -l16
+[10.435s] [ 50%] [32mBuilding CXX object CMakeFiles/unitree_lidar_ros2_node.dir/src/unitree_lidar_ros2_node.cpp.o[0m
+[24.517s] [100%] [32m[1mLinking CXX executable unitree_lidar_ros2_node[0m
+[25.049s] [100%] Built target unitree_lidar_ros2_node
+[25.061s] Invoked command in '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2 -- -j16 -l16
+[25.069s] Invoking command in '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2
+[25.076s] -- Install configuration: ""
+[25.076s] -- Installing: /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/install/unitree_lidar_ros2/lib/unitree_lidar_ros2/unitree_lidar_ros2_node
+[25.078s] -- Set non-toolchain portion of runtime path of "/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/install/unitree_lidar_ros2/lib/unitree_lidar_ros2/unitree_lidar_ros2_node" to ""
+[25.079s] -- Installing: /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/install/unitree_lidar_ros2/share/unitree_lidar_ros2/view.rviz
+[25.079s] -- Installing: /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/install/unitree_lidar_ros2/share/unitree_lidar_ros2/launch.py
+[25.079s] -- Installing: /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/install/unitree_lidar_ros2/share/ament_index/resource_index/package_run_dependencies/unitree_lidar_ros2
+[25.079s] -- Installing: /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/install/unitree_lidar_ros2/share/ament_index/resource_index/parent_prefix_path/unitree_lidar_ros2
+[25.079s] -- Installing: /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/ament_prefix_path.sh
+[25.079s] -- Installing: /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/ament_prefix_path.dsv
+[25.079s] -- Installing: /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/path.sh
+[25.079s] -- Installing: /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/path.dsv
+[25.080s] -- Installing: /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.bash
+[25.080s] -- Installing: /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.sh
+[25.080s] -- Installing: /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.zsh
+[25.080s] -- Installing: /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.dsv
+[25.080s] -- Installing: /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.dsv
+[25.080s] -- Installing: /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/install/unitree_lidar_ros2/share/ament_index/resource_index/packages/unitree_lidar_ros2
+[25.080s] -- Installing: /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/install/unitree_lidar_ros2/share/unitree_lidar_ros2/cmake/unitree_lidar_ros2Config.cmake
+[25.080s] -- Installing: /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/install/unitree_lidar_ros2/share/unitree_lidar_ros2/cmake/unitree_lidar_ros2Config-version.cmake
+[25.080s] -- Installing: /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.xml
+[25.082s] Invoked command in '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2
