@@ -2058,3 +2058,217 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/rolling/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/rolling/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:22 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-jV1hLN"
+      binary: "/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-jV1hLN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-jV1hLN'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_11321/fast
+        gmake[1]: Entering directory '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-jV1hLN'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_11321.dir/build.make CMakeFiles/cmTC_11321.dir/build
+        gmake[2]: Entering directory '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-jV1hLN'
+        Building C object CMakeFiles/cmTC_11321.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -std=gnu99 -o CMakeFiles/cmTC_11321.dir/test_mpi.c.o -c /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-jV1hLN/test_mpi.c
+        Linking C executable cmTC_11321
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11321.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_11321.dir/test_mpi.c.o -o cmTC_11321  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-jV1hLN'
+        gmake[1]: Leaving directory '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-jV1hLN'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/rolling/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/rolling/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:22 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-dg00Pz"
+      binary: "/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-dg00Pz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-dg00Pz'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3f016/fast
+        gmake[1]: Entering directory '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-dg00Pz'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3f016.dir/build.make CMakeFiles/cmTC_3f016.dir/build
+        gmake[2]: Entering directory '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-dg00Pz'
+        Building C object CMakeFiles/cmTC_3f016.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -std=gnu99 -o CMakeFiles/cmTC_3f016.dir/test_mpi.c.o -c /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-dg00Pz/test_mpi.c
+        Linking C executable cmTC_3f016
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f016.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_3f016.dir/test_mpi.c.o -o cmTC_3f016  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-dg00Pz'
+        gmake[1]: Leaving directory '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-dg00Pz'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)"
+      - "/opt/ros/rolling/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/rolling/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:22 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-4UqzN8"
+      binary: "/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-4UqzN8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-4UqzN8'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e22cd/fast
+        gmake[1]: Entering directory '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-4UqzN8'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e22cd.dir/build.make CMakeFiles/cmTC_e22cd.dir/build
+        gmake[2]: Entering directory '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-4UqzN8'
+        Building C object CMakeFiles/cmTC_e22cd.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -std=gnu99 -o CMakeFiles/cmTC_e22cd.dir/test_mpi.c.o -c /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-4UqzN8/test_mpi.c
+        Linking C executable cmTC_e22cd
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e22cd.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_e22cd.dir/test_mpi.c.o -o cmTC_e22cd  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-4UqzN8'
+        gmake[1]: Leaving directory '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-4UqzN8'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/rolling/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/rolling/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:22 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-GGSkQC"
+      binary: "/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-GGSkQC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-GGSkQC'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bef2c/fast
+        gmake[1]: Entering directory '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-GGSkQC'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_bef2c.dir/build.make CMakeFiles/cmTC_bef2c.dir/build
+        gmake[2]: Entering directory '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-GGSkQC'
+        Building C object CMakeFiles/cmTC_bef2c.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -std=gnu99 -o CMakeFiles/cmTC_bef2c.dir/test_mpi.c.o -c /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-GGSkQC/test_mpi.c
+        Linking C executable cmTC_bef2c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bef2c.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_bef2c.dir/test_mpi.c.o -o cmTC_bef2c  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-GGSkQC'
+        gmake[1]: Leaving directory '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-GGSkQC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/rolling/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/rolling/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:22 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-m0P660"
+      binary: "/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-m0P660"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-m0P660'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4929e/fast
+        gmake[1]: Entering directory '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-m0P660'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4929e.dir/build.make CMakeFiles/cmTC_4929e.dir/build
+        gmake[2]: Entering directory '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-m0P660'
+        Building C object CMakeFiles/cmTC_4929e.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -std=gnu99 -o CMakeFiles/cmTC_4929e.dir/test_mpi.c.o -c /home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-m0P660/test_mpi.c
+        Linking C executable cmTC_4929e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4929e.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_4929e.dir/test_mpi.c.o -o cmTC_4929e  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-m0P660'
+        gmake[1]: Leaving directory '/home/matthew_a/unilidar_sdk2/unitree_lidar_ros2/build/unitree_lidar_ros2/CMakeFiles/CMakeScratch/TryCompile-m0P660'
+        
+      exitCode: 0
+...
